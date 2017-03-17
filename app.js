@@ -9,28 +9,33 @@ angular.module('starFinder', [`ui.router`])
   })
   .state('character', {
     templateUrl:'character/character.html',
-    controller: 'mainCtrl',
-    url:'/character'
+    controller: 'charCtrl',
+    url:'/character/:character'
   })
   .state('planet', {
     templateUrl: 'planet/planet.html',
-    controller: 'mainCtrl',
-    url:'/planet'
+    controller: 'planetCtrl',
+    url:'/planet/:planet'
   })
   .state('species', {
     templateUrl: 'species/species.html',
-    controller:'mainCtrl',
-    url: 'species'
+    controller:'speciesCtrl',
+    url: '/species/:species'
   })
   .state('ship', {
     templateUrl: 'ship/ship.html',
-    controller:'mainCtrl',
-    url: '/ship'
+    controller:'shipCtrl',
+    url: '/ship/:ship'
   })
   .state('vehicle', {
     templateUrl: 'vehicle/vehicle.html',
-    controller: 'mainCtrl',
-    url: '/vehicle'
+    controller: 'vehicleCtrl',
+    url: '/vehicle/:vehicle'
+  })
+  .state('film', {
+    templateUrl: 'film/film.html',
+    controller: 'filmCtrl',
+    url: '/film/:film'
   });
   $urlRouterProvider.otherwise('/');
 })

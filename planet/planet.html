@@ -1,10 +1,42 @@
-<!DOCTYPE html>
-<html ng-app = 'starFinder'>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body ng-controller = 'mainCtrl'>
+
+<head>
+  <link rel = "stylesheet" href = "film/film.css">
+  <embed src = "star-wars-theme-song.mp3">
+</head>
+<body>
+  <div class = "data">
+<div class = "datacontent">
+  <div class = "name">
 {{planet.name}}
-  </body>
-</html>
+</div>
+</br>
+<div class = "item">
+Rotation Period: {{planet.rotation_period}} days
+</div>
+</br>
+<div class = "item">
+Orbital Period: {{planet.orbital_period}} days
+</div>
+</br>
+<div class = "item">
+Diameter: {{planet.diameter}} cu
+</div>
+</br>
+<div class = "item">
+Climate: {{planet.climate}}
+</div>
+</br>
+<div class = "item">
+Gravity: {{planet.gravity}}
+</div>
+</br>
+<div class = "item">
+Terrain: {{planet.terrain}}
+</div>
+</br>
+<div class = "item">
+Population: {{planet.population}}
+</div>
+</div>
+</div>
+</body>

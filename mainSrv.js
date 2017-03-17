@@ -8,21 +8,14 @@ angular.module('starFinder').service('mainSrv', function ($http){
     return $http.get(`http://swapi.co/api/planets/?search=${planetName}`)
   }
 
-  this.getStarship = (shipName, shipModel) =>{
+  this.getStarship = (shipName) =>{
   if (shipName){
     return $http.get(`http://swapi.co/api/starships/?search=${shipName}`)}
-    else if (shipModel){
-      return $http.get(`http://swapi.co/api/starships/?search=${shipModel}`)
-    }
   }
 
-  this.getVehicle = (vehicleName, vehicleModel) =>{
+  this.getVehicle = (vehicleName) =>{
     if (vehicleName){
-      return $http.get(`http://swapi.co/api/vehicles/?search=${vehicleName}`)
-    }
-    else if (vehicleModel){
-      return $http.get(`http://swapi.co/api/vehicles/?search=${vehicleModel}`)
-    }
+      return $http.get(`http://swapi.co/api/vehicles/?search=${vehicleName}`)}
   }
 
   this.getFilm = (filmTitle) =>{

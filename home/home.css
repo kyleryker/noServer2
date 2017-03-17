@@ -1,0 +1,81 @@
+*{
+background-color:black;
+}
+.welcome{
+  color: yellow;
+  margin-left: 30vw;
+  font-family: Death Star;
+  font-size: 40px;
+}
+.shipSearch{
+  width: 35vw;
+  float:left;
+  margin-left: 10vw;
+  margin-right: 5vw;
+  margin-bottom: 9vh;
+  border: 3px solid midnightblue;
+
+}
+.charSearch{
+  width: 35vw;
+  float: left;
+  margin-left:10vw;
+  margin-right: 5vw;
+    margin-bottom: 9vh;
+  border: 3px solid midnightblue;
+}
+
+.planetSearch{
+  width: 35vw;
+  float: left;
+  border: 3px solid midnightblue;
+}
+.speciesSearch{
+  width: 35vw;
+  float: left;
+    margin-bottom: 9vh;
+  border: 3px solid midnightblue;
+}
+.vehicleSearch{
+  width: 35vw;
+  float:left;
+    margin-bottom: 9vh;
+  border: 3px solid midnightblue;
+}
+.filmSearch{
+  width: 35vw;
+  float: left;
+  margin-left: 10vw;
+  margin-right: 5vw;
+    margin-bottom: 9vh;
+  border: 3px solid midnightblue;
+}
+.inputright{
+  margin-left: 10vw;
+  background-color: white;
+}
+.textright{
+  color: yellow;
+  margin-left: 9vw;
+}
+.inputleft{
+  margin-left: 10vw;
+  background-color: white;
+}
+.textleft{
+  color: yellow;
+  margin-left: 7vw;
+}
+.textstarship{
+  color: yellow;
+  margin-left: 8vw;
+}
+.textfilm{
+  color: yellow;
+  margin-left: 10vw;
+}
+.button{
+  background-color: yellow;
+  width: 50px;
+  height:18px;
+}
